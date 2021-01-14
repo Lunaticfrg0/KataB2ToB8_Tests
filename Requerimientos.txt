@@ -1,0 +1,16 @@
+--Requequmientos
+    REQ-F-01: El programa debe convertir digitos del sistema binario a su equivalencia en el sistema octal.
+    REQ-NF-01: El programa debe retornar el resultado de la conversion antes de los 5 segundos.
+    REQ-NF-02: El pograma debe retornar el resultado de las pruebas antes de los 5 segundos.
+
+--Criteros de Exito 
+    CE-REQ-F-01: El programa conveierte de manera exitosa el valor binario a su equivalencia en octal
+    CE-REQ-NF-01: El programa retorna el resultado de la conversion antes de los 5 segundos.
+    CE-REQ-NF-02: El pograma retorna el resultado de las pruebas antes de los 5 segundos.
+
+-- Casos de prueba
+
+    111001 -> 71
+    101010 -> 51
+    11101 -> 35
+    1101 -> 15  

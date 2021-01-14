@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emilio Escano\\Desktop\\Tendencias de Desarrollo de Aplicaciones\\Katas\\Kata #6\\Kata #6.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emilio Escano\\Desktop\\Tendencias de Desarrollo de Aplicaciones\\Katas\\Kata #6\\Kata #6.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilio Escano\\Desktop\\Tendencias de Desarrollo de Aplicaciones\\Katas\\Kata #6\\Kata #6.csproj",
+        "projectName": "Kata #6",
+        "projectPath": "C:\\Users\\Emilio Escano\\Desktop\\Tendencias de Desarrollo de Aplicaciones\\Katas\\Kata #6\\Kata #6.csproj",
+        "packagesPath": "C:\\Users\\Emilio Escano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilio Escano\\Desktop\\Tendencias de Desarrollo de Aplicaciones\\Katas\\Kata #6\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emilio Escano\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.0-preview-20210106-01, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
