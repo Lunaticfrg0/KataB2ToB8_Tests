@@ -7,4 +7,9 @@ public class testClass
     {
         Assert.Equal("71", Program.ConvertB2ToB8("111001"));
     }
+     [Fact]
+    public void TestCase2()
+    {
+        Assert.Equal("52", Program.ConvertB2ToB8("101010"));
+    }
 }

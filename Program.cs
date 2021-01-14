@@ -7,7 +7,6 @@ namespace Kata__6
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine(ConvertB10ToB8(42));
         }
         public static int ConvertB2ToB10(string binary)
         {
@@ -25,19 +24,19 @@ namespace Kata__6
 
             return decimalNumber;
         }
-        public static string ConvertB10ToB8(int base10)
+        public static string ConvertB10ToB8(int decimalToAnalize)
         {
-            int numToChange = base10;
-            string base8 = "";
+            int numToChange = decimalToAnalize;
+            string valueInB8 = "";
 
             while(true){
                 if((numToChange % 8) != 0)
                 {
-                    base8 = (numToChange % 8).ToString()+ base8;
+                    valueInB8 = (numToChange % 8).ToString()+ valueInB8;
                 }
                 else
                 {
-                    base8 = "0"+ base8;
+                    valueInB8 = "0"+ valueInB8;
                 }
                 numToChange/=8;
 
@@ -47,11 +46,11 @@ namespace Kata__6
                 }
             }
 
-            return base8;
+            return valueInB8;
         }
-        public static string ConvertB2ToB8(string x)
+        public static string ConvertB2ToB8(string binaryToConvert)
         {
-            return ConvertB10ToB8(ConvertB2ToB10(x));
+            return ConvertB10ToB8(ConvertB2ToB10(binaryToConvert));
         }
     }
 }
