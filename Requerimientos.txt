@@ -1,12 +1,12 @@
 --Requequmientos
-    --REQ-F-01: El aplicativo debe convertir valores numericos en el sistema binario a su equivalencia en base 8.
-    --REQ-NF-01: El programa debe retornar el resultado de la conversion antes de los 5 segundos.
-    --REQ-NF-02: El programa debe retornar el resultado de las pruebas antes de los 5 segundos.
+    -REQ-F-01: El programa debe convertir cifras del sistema binario al sistema octal.
+    -REQ-NF-01: El programa debe retornar el resultado de la conversion antes de los 5 segundos.
+    -REQ-NF-01: El programa debe retornar el resultado de las pruebas antes de los 5 segundos.
 
 --Criteros de Exito 
-    -CE-REQ-F-01: El programa convierte de manera correcta los valores del sistema binario a base 8.
-    -CE-REQ-NF-01: El programa retorna el resultado de la conversion antes de los 5 segundos.
-    -CE-REQ-NF-02: El programa retorna el resultado de las pruebas antes de los 5 segundos.
+    CE-REQ-F-01: El programa retorna de manera correcta el resultado de la conversion de base 2 a base 8.
+    CE-REQ-NF-01: El programa retorna el resultado de la conversion antes de los 5 segundos.
+    CE-REQ-NF-01: El programa retorna el resultado de las pruebas antes de los 5 segundos.
 
 -- Casos de prueba
 
